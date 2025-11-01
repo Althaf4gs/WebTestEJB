@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>servicerobot</title>
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- box icon -->
+    <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- header design -->
+    <header class="header">
+        <a href="*" class="logo"><img src="images/Logo_EJB-white-lowres1-removebg-preview.png"><span>EZALTHAF JAYA BERSAMA</span></a>
+
+        <i class='bxr  bx-menu' id="menu-icon" ></i> 
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#services">Services</a>
+            <a href="#products">Products</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <!-- header design     -->
+
+    <!-- WA Widget Design -->
+    <div class="wa-widget" data-position="bottom-right">
+        <div class="wa-ChatBox">
+            <div class="wa-chatBox-header">
+                <div class="pofile-picture">
+                    <img src="images/Althaf1.png" alt="Chat Profile">
+                </div>
+                <div class="info-box">
+                    <h4 class="name">Althaf</h4>
+                    <span class="answer-time">Typically replies within a minutes</span>
+                </div>
+                <button class="wa-close" onclick="hideChatbox()"><i class='bxr  bx-arrow-out-down-right-stroke-square'  ></i> </button>
+            </div>
+
+            <div class="wa-chatBox-body">
+                <div class="message">
+                    <h4 class="username">Althaf - CS</h4>
+                    <div class="message-content">
+                        <p>Hey there&#128075;</p>
+                        <p class="decoration">=</p>
+                        <p>Welcome to PT. Ezalthaf Jaya Bersama's official website.</p>
+                        <p class="decoration">=</p>
+                        <p>How can i help you?</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="wa-chatBox-footer">
+                <a href="https://wa.me/qr/R45JBQYCIK6JO1"><button class="btn btn-whatsapp">Start Chat</button></a>
+            </div>
+        </div>
+        
+        <div class="wa-floatButton" onclick="toggleChatbox()">
+            <i class='bxr  bxs-headphone-mic'  ></i>
+        </div>
+    </div>
+    <!-- WA Widget Design -->
+
+    <!-- home section design -->
+    <section class="home" id="home">
+        <!-- home image -->
+        <div class="home-image">
+            <img src="images/Logo EJB-WB.png" alt="" class="">
+        </div>
+        <!-- home image --> 
+        <div class="home-content">
+            <h3 class="Nama-PT">PT. EZALTHAF JAYA BERSAMA</h3>
+            <h1>"Reliable Hands for Reliable Machines"</h1>
+            <h3>Services : <span class="multiple-text"></span></h3>
+            <p>We can provide among <span class="Services-description">Welding Robot Maintenance, Electrical & Mechanical (design/maintenance), Machining, Fabrication, 
+                General Contractor & supplay, and Rent CAR.
+            </span> With more than <span class="Services-description">7 Years Experiences</span> you can trust our to look after your 
+            <span class="Services-description">Machines Problems</span> or your<span class="Services-description"> Industrial Building Projects.</span></p>
+            <p class="decoration">=</p>
+            <p class="information">More Information:</p>
+            <p>Phone : +62 889-0592-7226 (Althaf - Customer Services)</p>
+            <p>Email : email-ezalthaf@gmail.com</p>
+            <p>Address : J2HX+JRG, Kertarahayu, Kecamatan Setu, Kabupaten Bekasi, Jawa Barat 17320</p>
+            <div class="social-media">
+                <a href="https://wa.me/qr/R45JBQYCIK6JO1"><i class='bxr  bxs-headphone-mic'  ></i> </a>
+                <a href="#"><i class='bxr  bxs-envelope-alt'  ></i> </i></a>
+                <a href="https://maps.app.goo.gl/4NmYpJNPccN27D7L8"><i class='bxr  bxs-location-alt-2'  ></i> </i></a>
+            </div>
+        </div>
+    </section>
+    <!-- home section design -->
+
+    <!-- Services Section Design -->
+     <section class="services" id="services">
+        <h2 class="heading">Our <span>Services</span></h2>
+
+        <div class="services-container">
+            <!-- Maintenance welding robot -->
+            <div class="services-box">
+                <i class='bxr  bxs-spanner'  ></i> 
+                <h3>Welding Robot Maintenance</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit voluptates 
+                    nobis deserunt molestias explicabo ipsa doloremque, ad ipsam rem aut soluta aliquid 
+                    minus blanditiis, accusantium voluptas vero excepturi perspiciatis. Aliquam.</p>
+                <a href="https://wa.me/qr/R45JBQYCIK6JO1" class="btn">Contact CS</a>
+            </div>
+
+            <!-- Electrical & Mechanical -->
+            <div class="services-box">
+                <i class='bxr  bxs-spanner'  ></i> 
+                <h3>Electrical & Mechanical</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit voluptates 
+                    nobis deserunt molestias explicabo ipsa doloremque, ad ipsam rem aut soluta aliquid 
+                    minus blanditiis, accusantium voluptas vero excepturi perspiciatis. Aliquam.</p>
+                <a href="https://wa.me/qr/R45JBQYCIK6JO1" class="btn">Contact CS</a>
+            </div>
+
+            <!-- Machining -->
+            <div class="services-box">
+                <i class='bxr  bxs-spanner'  ></i> 
+                <h3>Machining</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit voluptates 
+                    nobis deserunt molestias explicabo ipsa doloremque, ad ipsam rem aut soluta aliquid 
+                    minus blanditiis, accusantium voluptas vero excepturi perspiciatis. Aliquam.</p>
+                <a href="https://wa.me/qr/R45JBQYCIK6JO1" class="btn">Contact CS</a>
+            </div>
+
+            <!-- fabrication -->
+            <div class="services-box">
+                <i class='bxr  bxs-spanner'  ></i> 
+                <h3>Fabrication</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit voluptates 
+                    nobis deserunt molestias explicabo ipsa doloremque, ad ipsam rem aut soluta aliquid 
+                    minus blanditiis, accusantium voluptas vero excepturi perspiciatis. Aliquam.</p>
+                <a href="https://wa.me/qr/R45JBQYCIK6JO1" class="btn">Contact CS</a>
+            </div>
+
+            <!-- General Contractor & Supply -->
+            <div class="services-box">
+                <i class='bxr  bxs-spanner'  ></i> 
+                <h3>General Contractor & Supply</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit voluptates 
+                    nobis deserunt molestias explicabo ipsa doloremque, ad ipsam rem aut soluta aliquid 
+                    minus blanditiis, accusantium voluptas vero excepturi perspiciatis. Aliquam.</p>
+                <a href="https://wa.me/qr/R45JBQYCIK6JO1" class="btn">Contact CS</a>
+            </div>
+
+            <!-- Rent CAR -->
+            <div class="services-box">
+                <i class='bxr  bxs-spanner'  ></i> 
+                <h3>Rent CAR</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit voluptates 
+                    nobis deserunt molestias explicabo ipsa doloremque, ad ipsam rem aut soluta aliquid 
+                    minus blanditiis, accusantium voluptas vero excepturi perspiciatis. Aliquam.</p>
+                <a href="https://wa.me/qr/R45JBQYCIK6JO1" class="btn">Contact CS</a>
+            </div>
+        </div>
+     </section>
+    <!-- Services Section Design --> 
+
+    <!-- Product Section Design -->
+     <section class="product" id="products">
+        <h2 class="heading">Our <span>Products</span></h2>
+        
+        <div class="product-content">
+            <!-- Swiper -->
+            <div class="swiper mySwiper">   
+                <div class="swiper-wrapper">
+                    <!-- Produk 1 -->
+                    <div class="product-container swiper-slide">
+                        <div class="product-box">
+                            <img src="images/Foto Produk.png" alt=""> 
+                            <h3>Produk 1</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum vero asperiores porro dolorem inventore, 
+                            animi quidem repellendus provident officiis, modi iusto hic accusamus. Illum, facilis? Quod iste 
+                            molestias deserunt. Ex?</p>
+                        </div>
+                    </div>
+
+                    <!-- Produk 2 -->
+                    <div class="product-container swiper-slide">
+                        <div class="product-box">
+                            <img src="images/Foto Produk.png" alt=""> 
+                            <h3>Produk 2</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum vero asperiores porro dolorem inventore, 
+                                animi quidem repellendus provident officiis, modi iusto hic accusamus. Illum, facilis? Quod iste 
+                                molestias deserunt. Ex?</p>
+                        </div>
+                    </div>
+
+                    <!-- Produk 3 -->
+                    <div class="product-container swiper-slide">
+                        <div class="product-box">
+                            <img src="images/Foto Produk.png" alt=""> 
+                            <h3>Produk 3</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum vero asperiores porro dolorem inventore, 
+                                animi quidem repellendus provident officiis, modi iusto hic accusamus. Illum, facilis? Quod iste 
+                                molestias deserunt. Ex?</p>
+                        </div>
+                    </div>
+
+                    <!-- Produk 4 -->
+                    <div class="product-container swiper-slide">
+                        <div class="product-box">
+                            <img src="images/Foto Produk.png" alt=""> 
+                            <h3>Produk 4</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum vero asperiores porro dolorem inventore, 
+                                animi quidem repellendus provident officiis, modi iusto hic accusamus. Illum, facilis? Quod iste 
+                                molestias deserunt. Ex?</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Produk 5 -->
+                    <div class="product-container swiper-slide">
+                        <div class="product-box">
+                            <img src="images/Foto Produk.png" alt=""> 
+                            <h3>Produk 5</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum vero asperiores porro dolorem inventore, 
+                                animi quidem repellendus provident officiis, modi iusto hic accusamus. Illum, facilis? Quod iste 
+                                molestias deserunt. Ex?</p>
+                        </div>
+                    </div>
+
+                    <!-- Produk 6 -->
+                    <div class="product-container swiper-slide">
+                        <div class="product-box">
+                            <img src="images/Foto Produk.png" alt=""> 
+                            <h3>Produk 6</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum vero asperiores porro dolorem inventore, 
+                                animi quidem repellendus provident officiis, modi iusto hic accusamus. Illum, facilis? Quod iste 
+                                molestias deserunt. Ex?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>        
+     </section>
+    <!-- Product Section Design -->
+
+    <!-- Contact Section Design -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Our <span>Contact</span></h2>
+
+        <div class="contact-container">
+            <!-- WhatsApp -->
+            <div class="contact-box">
+                <a href="#"><i class='bxr  bxs-headphone-mic'  ></i></a>
+                <h3>+62 889-0592-7226 (Althaf)</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit voluptates 
+                    nobis deserunt molestias explicabo ipsa doloremque, ad ipsam rem aut soluta aliquid 
+                    minus blanditiis, accusantium voluptas vero excepturi perspiciatis. Aliquam.</p>
+                <a href="https://wa.me/qr/R45JBQYCIK6JO1" class="btn">Contact CS</a>
+            </div>   
+            
+            <!-- Email -->
+            <div class="contact-box">
+                <a href="#"><i class='bxr  bxs-envelope-alt'  ></i></a>
+                <h3>email-ezalthaf@gmail.com</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit voluptates 
+                    nobis deserunt molestias explicabo ipsa doloremque, ad ipsam rem aut soluta aliquid 
+                    minus blanditiis, accusantium voluptas vero excepturi perspiciatis. Aliquam.</p>
+                <a href="#" class="btn">Contact CS</a>
+            </div> 
+        </div>    
+    </section>
+    <!-- Contact Section Design -->
+
+   
+
+    <!-- Footer Design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2025 by PT. EZALTHAF JAYA BERSAMA | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bxr  bx-arrow-up-stroke'  ></i> </a>
+        </div>
+    </footer> 
+    <!-- Footer Design -->
+
+    <!-- Scroll Reveal JS -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- Typed JS (Macam2 Services) -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Main Script -->
+    <script src="script.js"></script>
+</body>
+</html>
