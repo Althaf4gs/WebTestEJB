@@ -605,10 +605,76 @@ section{
 }
 
 /* Break Points */
+@media (max-width: 1200px){
+    .home .Nama-PT {
+        font-size: 3.1rem;
+    }
+
+    .home-content h3 {
+        font-size: 3rem;
+    }
+
+    .home-content h1 {
+        font-size: 2.3rem;
+    }
+
+    .services-box h3 {
+        font-size: 1.7rem;
+    }
+
+    .services-box i {
+        font-size: 4rem;
+    }
+
+    .services-box p {
+        font-size: 1.3rem;
+    }
+}
+
 
 @media (max-width: 1080px){
-    .wa-ChatBox .wa-floatButton{
-        scale: 300%;
+    .home {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .home img {
+        width: 700px;
+        height: 700px;
+    }
+    
+    .home .Nama-PT {
+        font-size: 5rem;
+    }
+
+    .home p {
+        font-size: 2rem;
+    }
+
+    #menu-icon {
+        display: block;
+    } 
+
+    .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        padding: 1rem 3%;
+        background: #0000f3;
+        border-top: .1rem solid rgba(0, 0, 0, .2);
+        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
+        display: none;
+    }
+
+    .navbar.active {
+        display: block;
+    }
+
+    .navbar a {
+        display: block;
+        font-size: 2rem;
+        margin: 3rem 0;
     }
 }
 
